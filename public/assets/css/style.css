@@ -176,7 +176,7 @@ a.login:hover {
 
 img.user-profile-img {
   width: 50px !important;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .dropdown_menu {
@@ -786,7 +786,7 @@ hr.about-hr {
   height: 4px;
   background: #eaedf1;
   opacity: 1;
-  margin-top: 16px;
+  margin-top: 16px !important;
   z-index: -1;
 }
 
@@ -1019,7 +1019,7 @@ hr.about-hr {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #ff4646;
+  color: #ff4646 !important;
   background: rgba(255, 70, 70, 0.07);
   padding: 20px 24px;
   border-radius: 97px;
@@ -1164,7 +1164,7 @@ hr.meeting-hr {
   height: 4px;
   background: #eaedf1;
   opacity: 1;
-  margin-top: 16px;
+  margin-top: 16px !important;
   z-index: -1;
 }
 

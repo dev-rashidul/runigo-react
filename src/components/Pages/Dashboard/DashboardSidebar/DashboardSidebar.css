@@ -1,0 +1,140 @@
+.dashboard-sidebar {
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  padding: 50px 40px;
+}
+
+.dashboard-profile-info h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.dashboard-profile-info h6 {
+  font-size: 11px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.dashboard-profile-img img {
+  width: 50px;
+}
+
+.dashboard-info-text li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #231f20;
+  padding: 5px 0;
+}
+
+.dashboard-info-text li span {
+  padding-left: 15px;
+}
+
+.dashboard-sidebar-review h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.dashboard-sidebar-review h3 img {
+  padding-left: 15px;
+  margin-top: -8px;
+}
+
+.dashboard-sidebar-review p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #777777;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.meeting-link-btn img {
+  padding-right: 5px;
+  margin-top: -7px;
+}
+
+.dashboard-analytics {
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  padding: 50px 40px;
+}
+
+.dashboard-analytics select {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #777777;
+}
+
+.dashboard-analytics select:focus-visible {
+  outline: none;
+}
+
+hr.dashbahr {
+  margin-top: 10px !important;
+  color: #eaedf1 !important;
+  opacity: 1;
+}
+
+.dashboard-analytics-item p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.dashboard-analytics-item h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.dashboard-analytics-item span {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #20bf70;
+  background: rgba(29, 191, 115, 0.25);
+  padding: 7px 10px;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .dashboard-analytics-item h3 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .dashboard-sidebar-main {
+    margin: 80px 0;
+  }
+
+  .dashboard-analytics-item h3 {
+    font-size: 28px;
+  }
+}
