@@ -1,0 +1,345 @@
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  .section-top h2,
+  .about-content h2,
+  .mentor-content h2 {
+    font-size: 45px;
+  }
+  .work-1::after {
+    left: -119px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+  .section-top h2,
+  .about-content h2,
+  .mentor-content h2 {
+    font-size: 42px;
+  }
+  .work-1::after {
+    left: -127px;
+  }
+  .work-content {
+    padding-right: 75px;
+  }
+
+  .footer-content a {
+    padding: 0 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .hero-content h5 {
+    font-size: 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .hero-content h1 br {
+    display: none;
+  }
+  .section-top h2,
+  .about-content h2,
+  .mentor-content h2 {
+    font-size: 40px;
+  }
+
+  .work-1::after {
+    left: -130px;
+  }
+  .work-content {
+    padding-right: 40px;
+  }
+
+  .footer-content a {
+    padding: 0 10px !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .hero-content h5 {
+    font-size: 16px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .hero-img,
+  .about-content,
+  .mentor-img {
+    padding-top: 60px;
+  }
+  .section-top h5,
+  .about-content h5,
+  .mentor-content h5 {
+    font-size: 18px;
+  }
+  .section-top h2,
+  .about-content h2,
+  .mentor-content h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .search-text input {
+    width: 180px;
+  }
+  input.search-btn {
+    width: 100px;
+    padding: 18px 0;
+  }
+
+  button.owl-prev {
+    left: -10px;
+  }
+
+  button.owl-next {
+    right: -10px;
+  }
+  .work-content,
+  .work-img {
+    width: 100%;
+  }
+  .works-timeline::after {
+    left: 10px;
+  }
+  .works {
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .cl-reverse {
+    flex-direction: column-reverse;
+  }
+  .work-1::after {
+    left: -52px;
+  }
+  .work-content {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .work-content h1 {
+    font-size: 150px;
+    left: -40px;
+    top: 20px;
+  }
+}
+
+/* ===========***===========
+===========***===========
+Mentor Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .rating-cat::before {
+    width: 75%;
+    left: 65px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 65px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .rating-cat::before {
+    width: 65%;
+    left: 70px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .rating-cat::before {
+    width: 70%;
+    left: 70px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 70px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .mentor-profile-img img {
+    max-width: 100px;
+  }
+  .mentor-about-content,
+  .education,
+  .rating {
+    padding: 30px 20px;
+  }
+  .final-rating {
+    max-width: 100%;
+    margin-right: 0;
+    border-right: none;
+  }
+  .rating-cat::before {
+    width: 65%;
+    left: 65px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 65px;
+  }
+  .student-review p {
+    padding-left: 0;
+  }
+}
+
+/* ===========***===========
+===========***===========
+Lesson Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .mentor-card {
+    max-width: 100%;
+  }
+  .mentor-card img {
+    max-width: 80%;
+  }
+  .meeting-cards {
+    padding: 25px 10px;
+  }
+  .fav-mentor-top h2 {
+    font-size: 28px;
+  }
+}
+
+/* ===========***===========
+===========***===========
+Register Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .register-content h2 {
+    font-size: 40px;
+  }
+  .register-img {
+    max-width: 100%;
+  }
+  .register-img img {
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .register-content h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .register-form {
+    margin: auto;
+  }
+  .register-img {
+    max-width: 100%;
+  }
+  .register-img img {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .register-top img {
+    max-width: 150px;
+  }
+  .register-content {
+    padding: 40px 20px 0 20px;
+  }
+  .register-content h2 {
+    font-size: 28px;
+  }
+  .register-img {
+    max-width: 100%;
+  }
+  .register-img img {
+    margin-left: 0px;
+  }
+}
+
+/* ===========***===========
+===========***===========
+Login Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .login-top img {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .login-top img {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .login-img {
+    max-width: 50%;
+  }
+  .login-content {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .login-top img {
+    max-width: 150px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .login-img {
+    max-width: 100%;
+  }
+  .login-content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .login-top img {
+    max-width: 150px;
+    margin: 50px 0;
+  }
+  .login-img {
+    max-width: 100%;
+  }
+  .login-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .login-form p,
+  .login-form p a,
+  .login-form a {
+    font-size: 15px;
+  }
+}
