@@ -15,7 +15,6 @@ const UpcomingLessons = () => {
       </div>
       <div className="meeting-main">
         <div className="container">
-
           <div className="row meeting-cards mt-4">
             <div className="col-md-6">
               <div className="meeting-card-left d-flex align-items-center mb-4 mb-md-0">
@@ -29,18 +28,23 @@ const UpcomingLessons = () => {
             <div className="col-md-6">
               <div className="meeting-right d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
-                  <img src="assets/images/lesson3.png" alt="lesson3" />
+                  <img
+                    draggable="false"
+                    src="assets/images/lesson3.png"
+                    alt="lesson3"
+                  />
                   <div className="meeting-user ps-4">
                     <h4>katrina lamon</h4>
                     <p>Dubai</p>
                   </div>
                 </div>
-                  <Link to="/">
-                    <img
-                      src="assets/images/message-green.png"
-                      alt="message-green"
-                    />
-                  </Link>
+                <Link to="/">
+                  <img
+                    draggable="false"
+                    src="assets/images/message-green.png"
+                    alt="message-green"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -57,18 +61,23 @@ const UpcomingLessons = () => {
             <div className="col-md-6">
               <div className="meeting-right d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
-                  <img src="assets/images/lesson3.png" alt="lesson3" />
+                  <img
+                    draggable="false"
+                    src="assets/images/lesson3.png"
+                    alt="lesson3"
+                  />
                   <div className="meeting-user ps-4">
                     <h4>katrina lamon</h4>
                     <p>Paris</p>
                   </div>
                 </div>
-                  <Link to="/">
-                    <img
-                      src="assets/images/message-green.png"
-                      alt="message-green"
-                    />
-                  </Link>
+                <Link to="/">
+                  <img
+                    draggable="false"
+                    src="assets/images/message-green.png"
+                    alt="message-green"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -85,18 +94,23 @@ const UpcomingLessons = () => {
             <div className="col-md-6">
               <div className="meeting-right d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
-                  <img src="assets/images/lesson3.png" alt="lesson3" />
+                  <img
+                    draggable="false"
+                    src="assets/images/lesson3.png"
+                    alt="lesson3"
+                  />
                   <div className="meeting-user ps-4">
                     <h4>katrina lamon</h4>
                     <p>Spain</p>
                   </div>
                 </div>
-                  <Link to="/">
-                    <img
-                      src="assets/images/message-green.png"
-                      alt="message-green"
-                    />
-                  </Link>
+                <Link to="/">
+                  <img
+                    draggable="false"
+                    src="assets/images/message-green.png"
+                    alt="message-green"
+                  />
+                </Link>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../components/Pages/Dashboard/Dashboard";
+import NoMeeting from "../components/Pages/Dashboard/NoMeeting/NoMeeting";
 import Home from "../components/Pages/Home/Home";
 import Lesson from "../components/Pages/Lesson/Lesson";
 import Mentor from "../components/Pages/Mentor/Mentor";
@@ -37,5 +38,9 @@ export const routes = createBrowserRouter([
   {
     path: "/dashboard",
     element: <Dashboard></Dashboard>,
+  },
+  {
+    path: "/no-meeting",
+    element: <NoMeeting></NoMeeting>,
   },
 ]);

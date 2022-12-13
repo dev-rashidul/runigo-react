@@ -1,0 +1,18 @@
+.no-meeting {
+  padding: 50px 0;
+}
+
+.no-meeting h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #777777;
+  padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .no-meeting h4 {
+    font-size: 22px;
+  }
+}

@@ -15,13 +15,13 @@ const DashboardHero = () => {
                         </div>
                         <div className="col-md-6 mt-5 mt-lg-0">
                             <div className="dashboard-hero-img">
-                                <img src="assets/images/dashboard-person.png" alt="dashboard-person" />
+                                <img draggable="false" src="assets/images/dashboard-person.png" alt="dashboard-person" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="dashboard-hero-shape">
-                    <img src="assets/images/dashboard-hero-shape.png" alt="dashboard-hero-shape" />
+                    <img draggable="false" src="assets/images/dashboard-hero-shape.png" alt="dashboard-hero-shape" />
                 </div>
             </div>
         </section>
