@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-content text-center">
             <Link to='/'>
-              <img src="assets/images/footer-logo.png" alt="footer-logo" />
+              <img draggable="false" src="assets/images/footer-logo.png" alt="footer-logo" />
             </Link>
             <div className="footer-menu d-md-flex justify-content-center my-5">
               <li className="nav-item">
@@ -39,13 +39,13 @@ const Footer = () => {
             </div>
             <div className="footer-social">
               <Link to='/'>
-                <img src="assets/images/facebook.png" alt="facebook" />
+                <img draggable="false" src="assets/images/facebook.png" alt="facebook" />
               </Link>
               <Link to='/'>
-                <img src="assets/images/instagram.png" alt="instagram" />
+                <img draggable="false" src="assets/images/instagram.png" alt="instagram" />
               </Link>
               <Link to='/'>
-                <img src="assets/images/twitter.png" alt="twitter" />
+                <img draggable="false" src="assets/images/twitter.png" alt="twitter" />
               </Link>
             </div>
             <hr />

@@ -10,7 +10,7 @@ const Header2 = () => {
       <nav className="navbar navbar-expand-xl">
         <div className="container">
           <a className="logo" href="index.html">
-            <img src="assets/images/logo.png" alt="logo" />
+            <img draggable="false" src="assets/images/logo.png" alt="logo" />
           </a>
           <button
             className="navbar-toggler collapsed"
@@ -56,21 +56,21 @@ const Header2 = () => {
             <div className="navbar-nav ml-auto">
               <div className="nav-buttons d-flex align-items-center">
                 <Link to="/" className="px-2">
-                  <img
+                  <img draggable="false"
                     style={{ width: "17px" }}
                     src="assets/images/notification.png"
                     alt="notification"
                   />
                 </Link>
                 <Link className="px-2">
-                  <img src="assets/images/inbox.png" alt="inbox" />
+                  <img draggable="false" src="assets/images/inbox.png" alt="inbox" />
                 </Link>
                 <Link className="px-2">
-                  <img src="assets/images/heart.svg" alt="heart" />
+                  <img draggable="false" src="assets/images/heart.svg" alt="heart" />
                 </Link>
                 <li className="position-relative">
                   <span onClick={()=> setDropdown(!dropdown)} className="px-2 cursor-pointer">
-                    <img
+                    <img draggable="false"
                       className="user-profile-img"
                       src="assets/images/profile.png"
                       alt="profile"

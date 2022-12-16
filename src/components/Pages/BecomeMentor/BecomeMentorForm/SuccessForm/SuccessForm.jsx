@@ -5,7 +5,7 @@ const SuccessForm = () => {
   return (
     <section>
       <div className="success-form text-center">
-        <img src="assets/images/success.png" alt="success" />
+        <img draggable="false" src="assets/images/success.png" alt="success" />
         <h5>Congratulations!</h5>
         <p>You are now in the Runigo’s mentor community</p>
         <div className="success-form-btn mt-5">

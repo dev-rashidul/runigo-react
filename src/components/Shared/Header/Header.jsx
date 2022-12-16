@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar2 navbar-expand-xl">
         <div className="container">
           <a className="logo" href="index.html">
-            <img src="assets/images/logo.png" alt="logo" />
+            <img draggable="false" src="assets/images/logo.png" alt="logo" />
           </a>
           <button
             className="navbar-toggler collapsed"

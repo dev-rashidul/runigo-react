@@ -14,7 +14,7 @@ const BecomeMentor = () => {
         <nav className="navbar transparent-header navbar-expand-xl">
           <div className="container">
             <a className="logo" href="index.html">
-              <img src="assets/images/footer-logo.png" alt="footer-logo" />
+              <img draggable="false" src="assets/images/footer-logo.png" alt="footer-logo" />
             </a>
             <button
               className="navbar-toggler collapsed"
