@@ -1,4 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import BecomeMentor from "../components/Pages/BecomeMentor/BecomeMentor";
+import PersonalInfo1 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo1/PersonalInfo1";
+import PersonalInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo2/PersonalInfo2";
+import SuccessForm from "../components/Pages/BecomeMentor/BecomeMentorForm/SuccessForm/SuccessForm";
+import UniversityInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/UniversityInfo2/UniversityInfo2";
+import UniversityInfo3 from "../components/Pages/BecomeMentor/BecomeMentorForm/UniversityInfo3/UniversityInfo3";
 import Dashboard from "../components/Pages/Dashboard/Dashboard";
 import NoMeeting from "../components/Pages/Dashboard/NoMeeting/NoMeeting";
 import Home from "../components/Pages/Home/Home";
@@ -40,7 +46,40 @@ export const routes = createBrowserRouter([
     element: <Dashboard></Dashboard>,
   },
   {
+    path: "/become-mentor",
+    element: <BecomeMentor></BecomeMentor>,
+  },
+
+  // These are for Just Check
+  
+  {
     path: "/no-meeting",
     element: <NoMeeting></NoMeeting>,
   },
+
+  {
+    path: "/university-info2",
+    element: <UniversityInfo2></UniversityInfo2>,
+  },
+
+  {
+    path: "/university-info3",
+    element: <UniversityInfo3></UniversityInfo3>,
+  },
+
+  {
+    path: "/personal-info1",
+    element: <PersonalInfo1></PersonalInfo1>,
+  },
+
+  {
+    path: "/personal-info2",
+    element: <PersonalInfo2></PersonalInfo2>,
+  },
+
+  {
+    path: "/success",
+    element: <SuccessForm></SuccessForm>,
+  },
+
 ]);

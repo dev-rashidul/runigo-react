@@ -1,0 +1,32 @@
+.success-form h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3734a9;
+  padding-top: 20px;
+}
+
+.success-form p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #201f66;
+}
+
+.success-form-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #ff4646 !important;
+  border-radius: 50px;
+  border: none;
+  margin-top: 40px;
+  padding: 15px 40px;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .success-form-btn a {
+    padding: 15px 30px;
+  }
+}

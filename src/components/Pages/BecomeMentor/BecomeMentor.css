@@ -1,0 +1,37 @@
+nav.transparent-header {
+  background: #3734a9 !important;
+  box-shadow: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav.transparent-header .nav-link.active {
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+nav.transparent-header .nav-link:hover {
+  color: #ffffff !important;
+}
+
+nav.transparent-header a.sign-up {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 13px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav.transparent-header a.sign-up:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  nav.transparent-header .navbar-toggler.collapsed .toggler-icon {
+    background-color: #ffffff;
+  }
+}

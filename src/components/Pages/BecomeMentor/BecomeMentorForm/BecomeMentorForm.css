@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+.bm-form-wrapper {
+  background: #3734a9;
+}
+
+.bm-form-container {
+  background: #4a47c7;
+  border-radius: 16px;
+  padding: 80px 40px 45px;
+  margin-top: -150px;
+}
+
+.bm-form-step-wrapper {
+  position: relative;
+  margin: 0 100px;
+}
+
+.bm-form-step-wrapper::after {
+  position: absolute;
+  content: "";
+  left: 75px;
+  bottom: 0;
+  width: 85%;
+  height: 1px;
+  background: #ffffff;
+}
+
+.bm-form-step {
+  max-width: 150px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bm-form-step::after {
+  position: absolute;
+  content: "";
+  top: 90px;
+  left: 44px;
+  width: 60px;
+  height: 60px;
+  background: #4a47c7 !important;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.bm-form-step::before {
+  position: absolute;
+  content: "";
+  top: 105px;
+  left: 63px;
+  width: 25px;
+  height: 25px;
+  background: #4a47c7;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bm-form-step h2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #ffffff33;
+  margin: 0;
+}
+
+.bm-form-step h2.active {
+  color: #ffffff;
+}
+
+.bm-form-step p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.bm-step-form {
+  background: #ffffff;
+  border-radius: 16px;
+  margin-top: 40px;
+  padding: 50px 60px;
+}
+
+.form-step h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #3734a9;
+  padding-bottom: 20px;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bm-form-container {
+    margin-top: -120px;
+  }
+
+  .bm-form-step-wrapper::after {
+    left: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .bm-form-container {
+    margin-top: -80px;
+  }
+
+  .bm-form-step-wrapper {
+    margin: 0 20px;
+  }
+
+  .bm-form-step-wrapper::after {
+    width: 80%;
+    left: 50px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+  .bm-form-container {
+    margin-top: -130px;
+    padding: 80px 20px 45px;
+  }
+
+  .bm-form-step-wrapper {
+    margin: 0;
+  }
+
+  .bm-form-step-wrapper::after {
+    width: 80%;
+    left: 28px;
+  }
+
+  .bm-form-step h2 {
+    font-size: 48px;
+  }
+
+  .bm-form-step::before {
+    top: 122px;
+    left: 37px;
+  }
+
+  .bm-form-step::after {
+    top: 112px;
+    left: 24px;
+    width: 48px;
+    height: 33px;
+  }
+}
