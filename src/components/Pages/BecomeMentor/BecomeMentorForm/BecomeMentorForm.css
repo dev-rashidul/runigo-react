@@ -120,7 +120,7 @@
   }
 }
 
-@media (min-width: 350px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .bm-form-container {
     margin-top: -130px;
     padding: 80px 20px 45px;
@@ -149,5 +149,24 @@
     left: 24px;
     width: 48px;
     height: 33px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+  .bm-form-step-wrapper::after {
+    width: 70%;
+    left: 45px;
+  }
+
+  .bm-form-step::before {
+    top: 102px;
+    left: 53px;
+  }
+
+  .bm-form-step::after {
+    top: 95px;
+    left: 40px;
+    width: 50px;
+    height: 35px;
   }
 }
