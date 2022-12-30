@@ -31,7 +31,7 @@ const Contact = () => {
               </Col>
               <Col md={6} xl={7}>
                 <div className="contact-img">
-                  <img
+                  <img draggable="false"
                     src="/assets/images/contact-hero.svg"
                     alt="contact-hero"
                   />
@@ -40,7 +40,7 @@ const Contact = () => {
             </Row>
           </Container>
           <div className="contact-shape">
-            <img src="/assets/images/contact-shape.svg" alt="" />
+            <img draggable="false" src="/assets/images/contact-shape.svg" alt="" />
           </div>
         </div>
       </section>
