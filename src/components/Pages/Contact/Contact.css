@@ -9,7 +9,7 @@
 }
 
 .contact-hero-wrapper {
-  background: url(/public/assets/images/contact-bg.png);
+  background: url(/public/assets/images/contact-bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;

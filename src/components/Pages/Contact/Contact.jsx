@@ -32,7 +32,7 @@ const Contact = () => {
               <Col md={6} xl={7}>
                 <div className="contact-img">
                   <img
-                    src="/assets/images/contact-hero.png"
+                    src="/assets/images/contact-hero.svg"
                     alt="contact-hero"
                   />
                 </div>
@@ -40,7 +40,7 @@ const Contact = () => {
             </Row>
           </Container>
           <div className="contact-shape">
-            <img src="/assets/images/contact-shape.png" alt="" />
+            <img src="/assets/images/contact-shape.svg" alt="" />
           </div>
         </div>
       </section>
