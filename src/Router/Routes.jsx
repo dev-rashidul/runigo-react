@@ -5,6 +5,7 @@ import PersonalInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/Per
 import SuccessForm from "../components/Pages/BecomeMentor/BecomeMentorForm/SuccessForm/SuccessForm";
 import UniversityInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/UniversityInfo2/UniversityInfo2";
 import UniversityInfo3 from "../components/Pages/BecomeMentor/BecomeMentorForm/UniversityInfo3/UniversityInfo3";
+import Contact from "../components/Pages/Contact/Contact";
 import Dashboard from "../components/Pages/Dashboard/Dashboard";
 import NoMeeting from "../components/Pages/Dashboard/NoMeeting/NoMeeting";
 import Home from "../components/Pages/Home/Home";
@@ -48,6 +49,10 @@ export const routes = createBrowserRouter([
   {
     path: "/become-mentor",
     element: <BecomeMentor></BecomeMentor>,
+  },
+  {
+    path: "/contact",
+    element: <Contact></Contact>,
   },
 
   // These are for Just Check

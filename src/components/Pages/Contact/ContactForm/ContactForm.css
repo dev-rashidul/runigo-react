@@ -1,0 +1,24 @@
+.contact-input-field input,
+.contact-input-field textarea {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  padding: 13px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-input-field input:focus,
+.contact-input-field textarea:focus {
+  outline: 0;
+}
+
+.contact-submit-btn {
+  font-weight: 600;
+  color: #ffffff;
+  background: #ff4646 !important;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03) !important;
+  padding: 15px !important;
+  border-radius: 50px !important;
+}
