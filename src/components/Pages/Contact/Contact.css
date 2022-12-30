@@ -1,3 +1,9 @@
+.contact-header .navbar {
+  position: relative;
+  background: transparent;
+  box-shadow: none;
+}
+
 #Contact-hero {
   background-color: #f9fafc;
 }
@@ -7,7 +13,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
-  padding: 200px 0 100px;
+  padding: 150px 0 100px;
+  margin-top: -100px;
 }
 
 .contact-form {

@@ -10,7 +10,9 @@ const Contact = () => {
     <>
       {/* Header Section JSX Start */}
 
-      <Header></Header>
+      <div className="contact-header">
+        <Header></Header>
+      </div>
 
       {/* Header Section JSX End */}
 
