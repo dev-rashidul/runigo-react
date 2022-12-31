@@ -44,6 +44,11 @@
   float: right;
 }
 
+.contact-img img {
+  width: 80%;
+  float: right;
+}
+
 .contact-shape {
   position: absolute;
   left: 0;
@@ -111,5 +116,10 @@ Responsive CSS
 
   .contact-img {
     margin-top: 60px;
+  }
+
+  .contact-img img {
+    width: 100%;
+    float: none;
   }
 }
