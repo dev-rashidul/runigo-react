@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import AccountSettings from "../components/Pages/Account/AccountSettings/AccountSettings";
 import MyDetails from "../components/Pages/Account/MyDetails/MyDetails";
 import MyOrder from "../components/Pages/Account/MyOrder/MyOrder";
 import BecomeMentor from "../components/Pages/BecomeMentor/BecomeMentor";
@@ -78,7 +79,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: '/account/account-settings',
-        element: <MyOrder></MyOrder>
+        element: <AccountSettings></AccountSettings>
       },
     ]
   },
