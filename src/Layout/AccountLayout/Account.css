@@ -23,6 +23,10 @@ h2.account-title {
   width: 100%;
 }
 
+.account-content {
+  flex: 1;
+}
+
 @media (max-width: 991px) {
   h2.account-title {
     font-size: 30px;
@@ -53,10 +57,6 @@ h2.account-title {
     font-size: 25px;
   }
 
-  .account-content {
-    flex: 1;
-  }
-
   .left-0 {
     left: 0;
   }
@@ -68,7 +68,7 @@ h2.account-title {
 
 @media (max-width: 767px) {
   h2.account-title {
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 0;
   }
   .sidebar-wrapper {

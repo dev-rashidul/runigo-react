@@ -15,10 +15,10 @@ const Sidebar = () => {
               <Link to='/account/my-details'><BiUserCircle></BiUserCircle> My Details</Link>
             </li>
             <li>
-              <Link><BiShoppingBag></BiShoppingBag> My Orders</Link>
+              <Link to='/account/my-order'><BiShoppingBag></BiShoppingBag> My Orders</Link>
             </li>
             <li>
-              <Link><BiCog></BiCog> Account Settings</Link>
+              <Link to='/account/account-settings'><BiCog></BiCog> Account Settings</Link>
             </li>
           </ul>
         </div>

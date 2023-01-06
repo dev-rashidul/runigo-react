@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MyDetails from "../components/Pages/Account/MyDetails/MyDetails";
+import MyOrder from "../components/Pages/Account/MyOrder/MyOrder";
 import BecomeMentor from "../components/Pages/BecomeMentor/BecomeMentor";
 import PersonalInfo1 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo1/PersonalInfo1";
 import PersonalInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo2/PersonalInfo2";
@@ -70,6 +71,14 @@ export const routes = createBrowserRouter([
       {
         path: '/account/my-details',
         element: <MyDetails></MyDetails>
+      },
+      {
+        path: '/account/my-order',
+        element: <MyOrder></MyOrder>
+      },
+      {
+        path: '/account/account-settings',
+        element: <MyOrder></MyOrder>
       },
     ]
   },

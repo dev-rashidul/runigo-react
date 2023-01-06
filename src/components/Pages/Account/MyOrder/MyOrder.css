@@ -1,0 +1,60 @@
+.my-order-wrapper {
+  width: 100%;
+  background: #ffffff;
+  padding: 60px 40px;
+  border-radius: 5px;
+}
+
+.my-order-wrapper h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.order-table {
+  border: 1px solid #e3e3e5;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.order-table-wrapper {
+  display: table-cell;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.order-table th,
+.order-table td {
+  padding: 12px;
+}
+
+.order-table th {
+  font-size: 17px;
+}
+
+.order-table td {
+  color: #343434;
+  font-weight: 500;
+}
+
+.order-table thead tr {
+  background: #42c376;
+}
+
+.order-table thead tr th {
+  color: #ffffff;
+}
+
+.order-table tr:nth-child(even) {
+  background: #57c77924;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .my-order-wrapper {
+    padding: 40px 20px;
+  }
+  .my-order-wrapper h3 {
+    font-size: 25px;
+  }
+}

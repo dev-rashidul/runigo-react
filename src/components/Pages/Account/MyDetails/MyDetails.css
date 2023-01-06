@@ -50,14 +50,13 @@
   background: #42c376;
 }
 
-hr {
+.my-details-wrapper hr {
+  border: 0.5px solid #e3e3e5;
   margin: 0 !important;
+  opacity: 1;
 }
 
 /* Responsive CSS */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
 
 @media (min-width: 300px) and (max-width: 767px) {
   .my-details-wrapper {
@@ -66,5 +65,8 @@ hr {
   .pi-input-field {
     max-width: 100%;
     width: 100%;
+  }
+  .my-details-wrapper h3 {
+    font-size: 25px;
   }
 }
