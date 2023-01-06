@@ -60,7 +60,7 @@
 
 @media (min-width: 300px) and (max-width: 767px) {
   .my-details-wrapper {
-    padding: 40px 20px;
+    padding: 40px 10px;
   }
   .pi-input-field {
     max-width: 100%;
