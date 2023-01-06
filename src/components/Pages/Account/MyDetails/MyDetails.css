@@ -1,0 +1,70 @@
+.my-details-wrapper {
+  background: #ffffff;
+  padding: 60px 40px;
+  border-radius: 5px;
+}
+
+.my-details-wrapper h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.personal-info-container h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.pi-input-field {
+  max-width: 48%;
+  width: 100%;
+}
+
+.pi-input-field label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.pi-input-field input {
+  width: 100%;
+  background: #f4f6f8;
+  border: 1px solid #e3e3e5;
+  border-radius: 5px;
+  padding: 10px 12px;
+}
+
+.pi-input-field span {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.pi-input-field input:focus {
+  outline: 0;
+}
+
+.pi-input-field input[type="submit"] {
+  width: 120px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #42c376;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .my-details-wrapper {
+    padding: 40px 20px;
+  }
+  .pi-input-field {
+    max-width: 100%;
+    width: 100%;
+  }
+}

@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import MyDetails from "../components/Pages/Account/MyDetails/MyDetails";
 import BecomeMentor from "../components/Pages/BecomeMentor/BecomeMentor";
 import PersonalInfo1 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo1/PersonalInfo1";
 import PersonalInfo2 from "../components/Pages/BecomeMentor/BecomeMentorForm/PersonalInfo2/PersonalInfo2";
@@ -11,6 +12,7 @@ import NoMeeting from "../components/Pages/Dashboard/NoMeeting/NoMeeting";
 import Home from "../components/Pages/Home/Home";
 import Lesson from "../components/Pages/Lesson/Lesson";
 import Mentor from "../components/Pages/Mentor/Mentor";
+import Account from "../Layout/AccountLayout/Account";
 import Main from "../Layout/Main";
 import Login from "../SignUp/Login/Login";
 import Register from "../SignUp/Register/Register";
@@ -53,6 +55,23 @@ export const routes = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact></Contact>,
+  },
+
+  // My Account Route
+
+  {
+    path: '/account',
+    element: <Account></Account>,
+    children: [
+      {
+        path: '/account',
+        element: <MyDetails></MyDetails>
+      },
+      {
+        path: '/account/my-details',
+        element: <MyDetails></MyDetails>
+      },
+    ]
   },
 
   // These are for Just Check
