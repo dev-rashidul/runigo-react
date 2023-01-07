@@ -1015,6 +1015,13 @@ hr.about-hr {
   opacity: 1;
 }
 
+img.student-info-img {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
 .student-p-info h4 {
   font-size: 20px;
   font-weight: 700;

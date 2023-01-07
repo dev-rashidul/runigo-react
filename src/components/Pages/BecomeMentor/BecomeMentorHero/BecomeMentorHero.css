@@ -16,6 +16,10 @@
   font-weight: 700;
 }
 
+.bm-hero-content h2 img {
+  width: 120px;
+}
+
 .bm-hero-content p {
   max-width: 380px;
   width: 100%;

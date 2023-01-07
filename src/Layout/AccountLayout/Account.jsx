@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import { BiMenuAltLeft, BiX } from "react-icons/bi";
+import { BiMenuAltRight, BiX } from "react-icons/bi";
 import { Outlet } from "react-router-dom";
 import Sidebar from "../../components/Pages/Account/Sidebar/Sidebar";
 import "./Account.css";
@@ -20,7 +20,7 @@ const Account = () => {
                 onClick={() => setOpen(!open)}
                 className="d-block d-lg-none sidebar-icon"
               >
-                {open ? <BiX></BiX> : <BiMenuAltLeft></BiMenuAltLeft>}
+                {open ? <BiX></BiX> : <BiMenuAltRight></BiMenuAltRight>}
               </div>
               <div className={`sidebar ${open ? 'left-0' : 'left-100'}`}>
                 <Sidebar></Sidebar>
