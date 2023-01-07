@@ -216,7 +216,7 @@ const Mentor = () => {
                         <div class="student-review py-4">
                           <div class="student-p-info d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                              <img
+                              <img class="student-info-img"
                                 src="assets/images/student-1.png"
                                 alt="student-1"
                               />
@@ -243,7 +243,7 @@ const Mentor = () => {
                         <div class="student-review py-4">
                           <div class="student-p-info d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                              <img
+                              <img class="student-info-img"
                                 src="assets/images/student-2.png"
                                 alt="student-2"
                               />
@@ -270,7 +270,7 @@ const Mentor = () => {
                         <div class="student-review py-4">
                           <div class="student-p-info d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                              <img
+                              <img class="student-info-img"
                                 src="assets/images/student-3.png"
                                 alt="student-3"
                               />
