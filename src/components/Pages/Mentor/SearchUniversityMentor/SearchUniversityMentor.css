@@ -1,0 +1,44 @@
+.search-uni-mentor-wrapper {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.search-title h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.search-title hr {
+  border-top: 3px solid #eaedf1;
+  opacity: 1;
+  margin: 0 !important;
+}
+
+.search-mentor-buttons {
+  margin: 20px 0;
+}
+
+.search-mentor-buttons a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 20px;
+  margin: 0px 20px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.search-mentor-buttons a.active {
+  border-bottom: 3px solid #1dbf73;
+  opacity: 1;
+}
+
+.search-mentor-buttons a img {
+  padding-right: 10px;
+  margin-top: -4px;
+}

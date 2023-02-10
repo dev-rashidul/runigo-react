@@ -14,6 +14,7 @@ import NoMeeting from "../components/Pages/Dashboard/NoMeeting/NoMeeting";
 import Home from "../components/Pages/Home/Home";
 import Lesson from "../components/Pages/Lesson/Lesson";
 import Mentor from "../components/Pages/Mentor/Mentor";
+import SearchUniversityMentor from "../components/Pages/Mentor/SearchUniversityMentor/SearchUniversityMentor";
 import Account from "../Layout/AccountLayout/Account";
 import Main from "../Layout/Main";
 import Login from "../SignUp/Login/Login";
@@ -57,6 +58,12 @@ export const routes = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact></Contact>,
+  },
+
+
+  {
+    path: "/search-university-mentor",
+    element: <SearchUniversityMentor></SearchUniversityMentor>,
   },
 
   // My Account Route
